@@ -12,13 +12,14 @@ import { FaBox } from "react-icons/fa6";
 const TypesOfLocks = () => {
     return (
         <>
-            <div className=' w-11/12 mx-auto 2xl:w-9/12 xl:w-5/6 lg:w-11/12 my-16 p-14 QUOTE-Sec  '>
+            <div className=' w-11/12 mx-auto 2xl:w-9/12 xl:w-5/6 lg:w-11/12 my-16 md:p-14 p-8 QUOTE-Sec  '>
                 <div >
                     <div className=" space-y-2 relative">
-                        <h2 className=" text-4xl  font-bold leading-normal text-[#fff] font-sans">Have project in mind? <br /> Get a QUOTE!</h2>
-                        <p className="text-white text-base">If you are looking any Web related services or Digital Marketiing services, Please Fill the form below to get a FREE QUOTE!</p>
+                        <h2 className=" md:text-4xl text-3xl  font-bold leading-normal text-[#fff] font-sans">Have project in mind? <br /> Get a QUOTE!</h2>
+                        <p className="text-white md:text-base text-sm">If you are looking any Web related services or Digital Marketiing services, Please Fill the form below to get a FREE QUOTE!</p>
                     </div>
-                    <button className='px-6 relative py-2 Get-bttn rounded-full  text-lg bg-[#fff] mt-6 text-black font-normal flex  items-center gap-1'> Get A Free Consultation </button>
+                    <button className='px-6 relative py-2 Get-bttn rounded-full  lg:text-lg text-sm bg-[#fff] mt-6 text-black font-normal flex  items-center gap-1'>
+                        <a target="_blank" href="mailto:digitalsakshipreek@gmail.com">Get A Free Consultation</a>  </button>
                 </div>
                 <div>
                 </div>

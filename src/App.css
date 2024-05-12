@@ -14,14 +14,15 @@
 
 .body {
     background-color: #fff;
+  
 }
 
-.navbar_section nav {
+/* .navbar_section nav {
     display: flex;
     gap: 20px;
     color: #fff;
     justify-content: center;
-}
+} */
 
 .connect_wallet_btn {
     background-color: #3A3454;
@@ -47,11 +48,11 @@
     align-items: center;
 }
 
-.token_lock_top h1 {
+/* .token_lock_top h1 {
     font-size: 45px;
     font-weight: 700;
     color: #FB7844;
-}
+} */
 .token_lock_top h1 span {
     font-size: 45px;
     font-weight: 700;
@@ -125,10 +126,10 @@ footer a {
 }
 
 footer .social_links a {
-    width: 30px;
-    height: 30px;
-    border: solid 1px #fff;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
+    background-color: #FF541E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +327,7 @@ nav {
 
 .comming_soon {
     position: absolute;
-    display: none;
+    /* display: none; */
     padding: 10px 20px;
     background: linear-gradient(291.78deg, #FF00B8 28.61%, #FF00B8 28.61%, #0091FF 141.4%);
     border-radius: 4px;
@@ -349,7 +350,7 @@ nav {
     right: 0;
     padding: 10px;
     color: #fff;
-    display: none;
+    /* display: none; */
     z-index: 9;
 }
 
@@ -419,12 +420,12 @@ nav {
     z-index: -1;
 }
 
-.hero_left h1 {
+/* .hero_left h1 {
     font-size: 40px;
     font-weight: 700;
     width: 80%;
     line-height: 51.04px;
-}
+} */
 
 .hero_heading {
     color: #E95DDA;
@@ -486,9 +487,9 @@ nav {
     margin: 0 30px;
 }
 
-.slick-list {
+/* .slick-list {
     padding: 40px 60px !important;
-}
+} */
 
 .carousel_card h2 {
     font-size: 21px;
@@ -496,13 +497,13 @@ nav {
     line-height: 27px;
 }
 
-.carousel_card p {
+/* .carousel_card p {
     font-size: 13px;
     font-weight: 400;
     line-height: 17px;
     width: 85%;
     text-align: center;
-}
+} */
 
 .lock_tokens_sec .slick-slide {
     transform: scale(1);
@@ -524,24 +525,24 @@ nav {
    
 }
 
-
-
-.testimonials .carousel_card {
+.carousel_card {
     color: #fff;
-    display: flex;
+    padding: 100px;
+    background-color: #fff;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
-.testimonials .carousel_card p {
+/* .testimonials .carousel_card p {
     font-family: "Open Sans";
     font-size: 20px;
     font-style: italic;
     font-weight: lighter;
     line-height: 27px;  
     width: 60%;
-}
+} */
 
 .testimonials .carousel_card h2 {
     font-weight: 600;
@@ -576,20 +577,6 @@ nav {
     color: #fff;
     border: solid 1px #fff;
     border-radius: 15px;
-}
-
-.faqs h1 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 51px;
-    text-align: center;
-}
-
-.faqs p {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: center;
 }
 
 .accordion__button {
@@ -1131,3 +1118,98 @@ figure.effect-lily:hover p {
 .Get-bttn{
     font-weight: 500;
 }
+
+/* .head-sec{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999999;
+} */
+
+.carousel_card img{
+    width: 100px !important;
+}
+
+
+@media screen and (max-width: 570px) {
+    .head-logo{
+        width: 120px;
+    }
+}
+
+.testiText{
+    position: relative;
+}
+
+.testiText::after{
+    content: "”";
+    bottom: 11px;
+    right: -14px;
+    color: #dc3545;
+    position: absolute;
+    z-index: 9;
+    width: 16px;
+    height: 13px;
+    font-size: 48px;
+    overflow: visible !important;
+}
+
+.testiText::before{
+    content: "“";
+    top: -19px;
+    left: -20px;
+    color: #dc3545;
+    position: absolute;
+    z-index: 9;
+    width: 16px;
+    height: 13px;
+    font-size: 48px;
+    overflow: visible !important;
+}
+
+
+.Ser-button {
+   padding: 8px 30px;
+   display: inline-block;
+    height: 55px;
+    overflow: hidden;
+    border: unset;
+    border-radius: 6px;
+    background-color: #20288B;
+    transition: all 200ms;
+    margin: 40px auto;
+  }
+  
+ .Ser-button:hover {
+    background-color:  #FF541E;
+  }
+  
+ .Ser-button  div {
+    height: 80px;
+    transform: translateY(0%);
+    transition: inherit;
+  }
+  
+ .Ser-button div:hover {
+    transform: translateY(-50%)
+  }
+  
+.Ser-button div  p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 50%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .Ser-icon{
+    font-size: 30px;
+  }
+
+
+  .Ppc-Benefit-item{
+    box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, .14);
+  }

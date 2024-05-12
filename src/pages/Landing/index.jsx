@@ -7,18 +7,22 @@ import FAQs from "./FAQs";
 import TypesOfLocks from "./TypesOfLocks";
 import Benefits from "./Benefits";
 import Haveproject from "./Haveproject";
+import Form from "./Form";
+import About from "./About";
 
 const index = () => {
     return (
         <>
             <Header />
             <HeroSection />
-            <LockTokens />
+            <About/>
             <TypesOfLocks />
             <Benefits />
             <Haveproject/>
+            <LockTokens />
             {/* <FAQs /> */}
             <Testimonials />
+            <Form/>
             <Footer />
         </>
     )

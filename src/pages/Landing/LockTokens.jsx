@@ -76,7 +76,7 @@ const LockTokens = () => {
         <div className='bg-white '>
             <div className='py-14 '>
                 <div className='w-11/12 mx-auto 2xl:w-9/12 xl:w-5/6 lg:w-11/12 '>
-                <h1 className=' text-4xl  font-bold text-center text-[#000] font-sans '>"Few of our Clients"</h1>
+                <h1 className=' md:text-4xl text-3xl  font-bold text-center text-[#000] font-sans '>"Few of our Clients"</h1>
                     {/* <Slider {...settings}>
                         <div>
                          <img className="w-36 mx-auto rounded-full shadow-lg flex items-center bg-[#EF940F] slide-image" src={Carousel1} alt="" />
