@@ -4,7 +4,7 @@ import About from "./About"
 import Testimonials from "./Testimonials"
 import Service from "./Service"   
 import Haveproject from "./Haveproject" 
-import Form from "./Form" 
+import Form from '../../components/partials/Form';
 
 
 const CustomToken = () => {

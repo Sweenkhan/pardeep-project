@@ -1,11 +1,13 @@
 import React from 'react'
 import LogoImg from "../../../assets/images/logo.png";
 import { Link } from 'react-router-dom';
-import { MdPhoneCallback } from "react-icons/md";
+import { MdPhoneCallback } from "react-icons/md"; 
 
 
 const Header = () => {
     return (
+        
+     
         <div className='bg-white shadow shadow-blue-900 head-sec'>
             <div className='w-11/12 mx-auto 2xl:w-9/12 xl:w-5/6 lg:w-11/12 '>
                 <header className='flex justify-between items-center h-[102px]'>
@@ -41,6 +43,7 @@ const Header = () => {
                 </header>
             </div>
         </div>
+ 
     )
 }
 

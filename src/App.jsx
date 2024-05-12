@@ -25,7 +25,7 @@ function App() {
             </Suspense>
           }
         />
-        <Route path="/" element={<Layout />} >
+          <Route path="/" element={<Layout />} >
           {/* <Route path="/token-lock" element={<TokenLock />} /> */}
           <Route path="/social-media-marketing" element={<SocialMedia />} />
           <Route path="/ppc-and-google-adword-management-services" element={<PpcGoogle />} />

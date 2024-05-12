@@ -7,7 +7,7 @@ import FAQs from "./FAQs";
 import TypesOfLocks from "./TypesOfLocks";
 import Benefits from "./Benefits";
 import Haveproject from "./Haveproject";
-import Form from "./Form";
+import Form from "../../components/partials/Form";
 import About from "./About";
 
 const index = () => {
